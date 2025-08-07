@@ -3,7 +3,7 @@ from agents.email_agent import generate_email_response
 from utils.email_sender import send_email
 
 st.set_page_config(page_title="Auto Email Responder", layout="wide")
-st.title("📧 MailMate – Think Less, Send Smart")
+st.title("📧 SmartMail Agent  – Think Less, Send Smart")
 
 email_text = st.text_area("Paste the email content you received:", height=300)
 recipient_email = st.text_input("Recipient Email Address")
